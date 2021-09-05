@@ -1,0 +1,148 @@
+.row {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%
+}
+
+.page {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #ede7e6;
+    background-size: 100% 100%;
+    background-position: top center;
+    padding: 10px
+}
+
+.signintext {
+    margin-right: 20% !important;
+    color: #969799
+}
+
+.top {
+    color: #64C97D
+}
+
+.btn {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%
+}
+
+.ForgotPassBtn {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #c7c5c5;
+    padding-bottom: 3px;
+    text-decoration: none !important;
+    margin-right: 20%;
+    border-top-color: none
+}
+
+.LoginBtn {
+    border-radius: 25px;
+    background-image: url(http://i.imgur.com/S4zmPRw.png);
+    border: none
+}
+
+.signupbtn {
+    border-radius: 25px;
+    width: 25%;
+    margin: auto;
+    background-image: url(http://i.imgur.com/S4zmPRw.png);
+    border: solid 1px white;
+    font-size: 10px
+}
+
+form {
+    padding: 0;
+    margin-left: 15%
+}
+
+.signin {
+    background-color: white;
+    padding: 2%;
+    margin: auto
+}
+
+.signup {
+    background-image: url(http://i.imgur.com/S4zmPRw.png);
+    padding: 2%
+}
+
+.form-control {
+    width: 80%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: #ebe8e8
+}
+
+.custom-control {
+    margin-bottom: 2%
+}
+
+h2.HelloFriend {
+    color: #fff !important;
+    font-weight: 200px;
+    margin-top: 30%;
+    margin-bottom: 10%
+}
+
+.SignupText {
+    color: #fff;
+    margin-bottom: 15%;
+    font-size: 16px;
+    font-weight: 10px !important;
+    font-family: Garamond
+}
+
+@media only screen and (max-width: 600px) {
+    row {
+        margin-top: 5%;
+        margin-left: 1%;
+        margin-right: 1%
+    }
+}
+
+input,
+input:focus {
+    border-width: 0px;
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.social-btn .btn {
+    color: #fff;
+    margin: 8px 0 0 30px;
+    font-size: 15px;
+    width: 45px;
+    height: 40px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-weight: normal;
+    text-align: center;
+    border: solid 0.5px grey;
+    transition: all 0.4s
+}
+
+.social-btn .btn:first-child {
+    margin-left: 0
+}
+
+.social-btn .btn:hover {
+    opacity: 0.8
+}
+
+.social-btn .btn i {
+    font-size: 20px
+}
+
+.social-btn {
+    margin-right: 20%;
+    margin-bottom: 7%;
+    margin-top: 5%
+}

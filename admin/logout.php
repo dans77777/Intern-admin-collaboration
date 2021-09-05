@@ -1,0 +1,10 @@
+<?php
+    session_start();
+    unset($_SESSION['legitUser']);
+    unset($_SESSION['legitEmail']);
+    unset($_SESSION['legitDepartment']);
+    unset($_SESSION['legitType']);
+    unset($_SESSION['legitCDE']);
+    session_destroy();
+    header("Location:../");
+?>
