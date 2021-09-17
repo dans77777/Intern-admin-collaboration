@@ -7,17 +7,8 @@ if(!isset($_SESSION['legitEmail']) || ($_SESSION['legitCDE'] != 'Admin')) {
     die();
 }
 $e=($_SESSION['legitEmail']);
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "intern";
-error_reporting(0);
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include(conn.php);
+
 
 if(isset($_POST['approved'])){
 
