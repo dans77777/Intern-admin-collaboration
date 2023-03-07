@@ -3,7 +3,7 @@ session_start();
 if(!isset($_SESSION['legitEmail'])|| ($_SESSION['legitCDE'] != 'Admin')) {
     echo '<h1>You are not an authorised user</h1>';
     header("Location:../adminlog.php");
-    //maybe redirect to login page
+    //redirect to login page---> design as per plan sketches 1
     die();
 }
 $email= $_SESSION['legitEmail'];
@@ -50,7 +50,7 @@ $e=($_SESSION['legitEmail']);
                     <?php
                    
   include ('conn.php');
-  
+  //getting photo of login user from the database
   $query = $conn->query("SELECT `dp` from `alogin` where email='".$e."'");
   
   if($query->num_rows > 0){
