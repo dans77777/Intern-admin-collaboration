@@ -14,10 +14,11 @@ $dbname = "intern";
 error_reporting(0);
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
+// Check connection after that making sliding pages as per new design
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
 
     $page=$_GET["page"];
 
